@@ -13,7 +13,7 @@
 
 
 /****************************************************
-* @brief: USART1 init, PA9, PA10
+* @brief  USART1 init, PA9, PA10
 *****************************************************/
 void usart1_configuration()
 {
@@ -90,7 +90,7 @@ int fgetc(FILE *f)
 }
 
 /****************************************************
-* @brief: USART2 init, PA2, PA3
+* @brief  USART2 init, PA2, PA3
 *****************************************************/
 void usart2_configuration(void)
 {
@@ -148,7 +148,7 @@ static void usart2_nvic_configuration(void)
 }
 
 /****************************************************
-* @brief: USART3 init, PB10, PB11
+* @brief  USART3 init, PB10, PB11
 *****************************************************/
 void usart3_configuration(void)
 {
@@ -206,8 +206,8 @@ static void usart3_nvic_configuration(void)
 }
 
 /****************************************************
-* @brief: format print, like printf, optional to choose USART no
-* @param: usartx: usart no, *data, ...
+* @brief  format print, like printf, optional to choose USART no
+* @param  usartx: usart no, *data, ...
 *****************************************************/
 void usartx_printf(USART_TypeDef* usartx, uint8_t *data, ...)
 {
