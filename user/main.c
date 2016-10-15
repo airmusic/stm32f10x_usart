@@ -3,7 +3,7 @@
   * @brief   		stm32f10x usart demo
   * @author  		Timon
   * @date    		20151020
-  * @versions		20151021: demo debug
+  *          		20151021: demo debug
  *******************************************************************************/
 
 #include "stm32f10x.h"

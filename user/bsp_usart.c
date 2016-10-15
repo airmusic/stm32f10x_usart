@@ -1,9 +1,8 @@
 /*************************************************
-* @file 			  bsp_usart.c
+* @file 			bsp_usart.c
 * @brief  			USART
 * @author  			Timon
-* @timecreate  	20150626
-* @update 			20150626: Create
+* @date         	20150626
 *************************************************/
 
 #include "bsp_usart.h"
@@ -368,7 +367,7 @@ void usart3_data_recv(uint8_t recv_ch)
 }
 
 /****************************************************
-* @brief: USART init
+* @brief  USART init
 *****************************************************/
 void usart_custinit()
 {
